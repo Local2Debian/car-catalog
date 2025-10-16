@@ -42,7 +42,7 @@ git clone <repository-url>
 cd car-catalog
 
 # Запустите проект
-docker-compose up --build
+docker-compose up -d
 ```
 
 Приложение будет доступно по адресу: http://localhost:3000
