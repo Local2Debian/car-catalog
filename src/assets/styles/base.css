@@ -1,0 +1,13 @@
+@layer base {
+    html {
+        @apply bg-primary scroll-smooth;
+    }
+
+    body {
+        @apply bg-primary text-primary overflow-hidden;
+    }
+
+    #__nuxt {
+        @apply @container h-svh w-svw;
+    }
+}

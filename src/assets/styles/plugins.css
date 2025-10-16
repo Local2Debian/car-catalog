@@ -1,0 +1,4 @@
+@plugin 'tailwind-scrollbar' {
+    nocompatible: true;
+    preferredstrategy: 'pseudoelements';
+}

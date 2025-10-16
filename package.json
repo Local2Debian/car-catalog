@@ -1,0 +1,37 @@
+{
+  "name": "car-catalog",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev --no-cache",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "start": "node ./server/index.mjs",
+    "postinstall": "nuxt prepare",
+    "sync:carquery": "tsx scripts/sync-carquery.ts",
+    "sync:carquery:clear": "tsx scripts/sync-carquery.ts --clear",
+    "redis:flush": "tsx scripts/redis-flush.ts"
+  },
+  "dependencies": {
+    "@nuxt/fonts": "0.11.4",
+    "@nuxt/icon": "1.15.0",
+    "@nuxt/image": "1.11.0",
+    "@tailwindcss/vite": "^4.1.14",
+    "@vueuse/components": "^13.9.0",
+    "@vueuse/nuxt": "13.9.0",
+    "nuxt": "^3.19.3",
+    "nuxt-viewport": "2.3.1",
+    "redis": "^4.7.1",
+    "redis-om": "^0.4.7",
+    "tailwind-variants": "^3.1.1",
+    "tailwindcss": "^4.1.14",
+    "vue": "^3.5.22",
+    "vue-router": "^4.5.1",
+    "tsx": "^4.19.2"
+  },
+  "devDependencies": {
+    "@types/node": "^24.7.2",
+    "tailwind-scrollbar": "^4.0.2"
+  }
+}

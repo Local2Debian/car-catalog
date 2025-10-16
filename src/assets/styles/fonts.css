@@ -1,0 +1,16 @@
+@theme {
+    /* Подключаем шрифты, они будут подгружаться по мере использования */
+    --font-light: 'Roboto-Light';
+    --font-medium: 'Roboto-Medium';
+    --font-semibold: 'Roboto-SemiBold';
+    --font-bold: 'Roboto-Bold';
+    --font-extrabold: 'Roboto-ExtraBold';
+    --font-black: 'Roboto-Black';
+    --font-regular: 'Roboto-Regular';
+}
+
+@theme static {
+    /* Подключаем шрифты, шрифт Regular устанавливается по умолчанию и подгружается всегда */
+    --default-font-family: 'Roboto-Regular';
+    --font-regular: 'Roboto-Regular';
+}

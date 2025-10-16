@@ -1,0 +1,18 @@
+/* ========== THEME VARIANTS ============= */
+@custom-variant light (&:where([data-theme=light], [data-theme=light] *));
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+
+/* ========== THEME VARIABLES ============= */
+@layer theme {
+    :root {
+        --color-primary: #f2f2f0;
+        --color-primary-alt: #fdfdfb;
+        --color-secondary: #000000;
+        --color-accent: #aaafb2;
+
+        --color-text: #000000;
+        --color-text-alt: #ffffff;
+        --color-text-secondary: #aaafb2;
+        --color-text-placeholder: #848484;
+    }
+}

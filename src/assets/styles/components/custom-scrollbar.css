@@ -1,0 +1,5 @@
+@layer components {
+    .custom-scrollbar {
+        @apply scrollbar scrollbar-w-1 scrollbar-thumb-secondary/30 overflow-x-hidden overflow-y-auto;
+    }
+}

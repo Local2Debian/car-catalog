@@ -1,0 +1,21 @@
+@import 'tailwindcss';
+
+@import './fonts.css';
+@import './theme.css';
+@import './base.css';
+@import './plugins.css';
+@import './components/custom-scrollbar.css';
+
+@import '~/modules/responsive/runtime/container.css';
+
+@theme {
+    --color-primary: var(--color-primary);
+    --color-primary-alt: var(--color-primary-alt);
+    --color-secondary: var(--color-secondary);
+    --color-accent: var(--color-accent);
+
+    --text-color-primary: var(--color-text);
+    --text-color-primary-alt: var(--color-text-alt);
+    --text-color-secondary: var(--color-text-secondary);
+    --text-color-placeholder: var(--color-text-placeholder);
+}

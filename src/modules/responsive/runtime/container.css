@@ -1,0 +1,13 @@
+
+@theme {
+    --container-*: initial;
+	--container-2xs: 375px;
+	--container-xs: 425px;
+	--container-sm: 640px;
+	--container-md: 768px;
+	--container-lg: 1024px;
+	--container-xl: 1280px;
+	--container-2xl: 1536px;
+	--container-3xl: 2560px;
+	--container-4xl: 3840px;
+}
